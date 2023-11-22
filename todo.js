@@ -142,7 +142,7 @@ input_submit.addEventListener('click', function() {
     // append to the buttons div
     buttons_div.appendChild(delete_button);
     // append text to the button
-    delete_button.appendChild(document.createTextNode("Delete"));
+    delete_button.appendChild(document.createTextNode("Del"));
     // set button to the delete button class
     delete_button.classList.add('delete_button');
     // set id of the delete button

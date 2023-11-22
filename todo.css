@@ -545,8 +545,7 @@
     transition: 0.8s all ease-in;
   }
   * .output_div .buttons_div {
-    border: 2px dotted dodgerblue;
-    width: 60vw;
+    width: 40vw;
     margin: 0 0vw 0 0;
   }
   * .output_div .buttons_div .cross_off_button {
