@@ -477,7 +477,7 @@
     border-radius: 5px;
     height: 10vw;
     width: 45vw;
-    font-size: 2vw;
+    font-size: 6vw;
     color: azure;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
@@ -489,9 +489,9 @@
     border: 4px solid #475C7D;
     background-color: #BBC9DC;
     border-radius: 5px;
-    height: 10vw;
+    height: 12vw;
     width: 30vw;
-    font-size: 4vw;
+    font-size: 5vw;
     color: #122A4D;
     cursor: pointer;
   }
@@ -504,96 +504,5 @@
     margin: 2vh 0 0 0vw;
     overflow: hidden;
     overflow-y: auto;
-  }
-  * .output_div .todo_item {
-    width: 58vw;
-    height: 8vw;
-    margin: 5vh 0 0 0vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4vw;
-    border: 2px solid azure;
-    border-radius: 10px;
-    padding: 2vh;
-    background-color: lawngreen;
-  }
-  * .output_div .todo_output {
-    background-color: #122A4D;
-    border: none;
-    width: 50vw;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
-    font-size: 2vw;
-    color: azure;
-    text-align: center;
-    margin: 5vh 0 0 0;
-  }
-  * .output_div .todo_output:not(:-moz-read-only) {
-    -moz-transition: 0.4s all ease-in;
-    transition: 0.4s all ease-in;
-    color: #0A62E8;
-    -moz-appearance: none;
-         appearance: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-  * .output_div .todo_output:not(:read-only) {
-    transition: 0.4s all ease-in;
-    color: #0A62E8;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-  * .output_div .todo_output.crossed {
-    text-decoration: line-through;
-    transition: 0.8s all ease-in;
-  }
-  * .output_div .buttons_div {
-    margin: -7vh 0 0 0;
-    display: flex;
-    gap: 1vw;
-  }
-  * .output_div .buttons_div .cross_off_button {
-    background-color: #BBC9DC;
-    border: 3px solid #475C7D;
-    border-radius: 5px;
-    width: 8vw;
-    height: 3vw;
-    color: #122A4D;
-    font-size: 1vw;
-  }
-  * .output_div .buttons_div .edit_button {
-    background-color: #BBC9DC;
-    border: 3px solid #475C7D;
-    border-radius: 5px;
-    width: 8vw;
-    height: 3vw;
-    color: #122A4D;
-    font-size: 1vw;
-  }
-  * .output_div .buttons_div .delete_button {
-    background-color: #BBC9DC;
-    border: 3px solid #475C7D;
-    border-radius: 5px;
-    width: 8vw;
-    height: 3vw;
-    color: #122A4D;
-    font-size: 1vw;
-  }
-  * .output_div::-webkit-scrollbar {
-    border: 1px solid #122A4D;
-    border-radius: 10px;
-  }
-  * .output_div::-webkit-scrollbar-thumb {
-    background: #BBC9DC;
-    width: 0.2vw;
-    border-radius: 20px;
-    border: 3px solid #475C7D;
   }
 }/*# sourceMappingURL=todo.css.map */
