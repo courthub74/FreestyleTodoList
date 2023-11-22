@@ -34,12 +34,16 @@ input_submit.addEventListener('click', function() {
     console.log(`The input value is: ${input_value}`);
     // clear the input field
     input_todo.value = '';
+    // test print output div
+    console.log(output_div);
     // ADD a div for each todo item and buttons
     let todo_item = document.createElement('div');
     // NOW append to the new todo div to output div
     output_div.appendChild(todo_item);
     // give the new todo div a class
     todo_item.classList.add('todo_item');
+    // add an id
+    todo_item.setAttribute('id', 'todo_item');
     // test print it
     console.log(todo_item);
     // create a p tag with the todo output

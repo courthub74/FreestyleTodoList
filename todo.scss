@@ -550,8 +550,67 @@ $editcolor: #0A62E8;
             overflow: hidden;
             overflow-y: auto;
             // give this a border and set overflow to hidden
+            #todo_item {
+                // background-color: greenyellow;
+                border: 2px solid azure;
+                width: 65vw;
+                height: 20vw;
+                padding: 2vh;
+            }
+            // The ToDo Text
+            .todo_output {
+                border: none;
+                width: 50vw;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+                font-size: 2vw;
+                color: azure;
+                text-align: center;
+            }
+            // The ToDo in Edit mode
+            .todo_output:not(:read-only) {
+                transition: .4s all ease-in;
+                color: $editcolor;
+                appearance: none;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+            // The ToDo Crossed Off
+            .todo_output.crossed {
+                text-decoration: line-through;
+                transition: .8s all ease-in;
+            }
+            // The Buttons
+            .buttons_div {
+                .cross_off_button {
+                    background-color: $buttons;
+                    border: 3px solid $buttonoutline;
+                    border-radius: 5px;
+                    width: 8vw;
+                    height: 8vw;
+                    color: $background;
+                    font-size: 3.5vw;
+                }
+                .edit_button {
+                    background-color: $buttons;
+                    border: 3px solid $buttonoutline;
+                    border-radius: 5px;
+                    width: 8vw;
+                    height: 8vw;
+                    color: $background;
+                    font-size: 3.5vw;
+                }
+                .delete_button {
+                    background-color: $buttons;
+                    border: 3px solid $buttonoutline;
+                    border-radius: 5px;
+                    width: 8vw;
+                    height: 8vw;
+                    color: $background;
+                    font-size: 3.5vw;
+                }
+            }
         }
-
-        
     }
 }

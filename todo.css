@@ -505,4 +505,70 @@
     overflow: hidden;
     overflow-y: auto;
   }
+  * .output_div #todo_item {
+    border: 2px solid azure;
+    width: 65vw;
+    height: 20vw;
+    padding: 2vh;
+  }
+  * .output_div .todo_output {
+    border: none;
+    width: 50vw;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 2vw;
+    color: azure;
+    text-align: center;
+  }
+  * .output_div .todo_output:not(:-moz-read-only) {
+    -moz-transition: 0.4s all ease-in;
+    transition: 0.4s all ease-in;
+    color: #0A62E8;
+    -moz-appearance: none;
+         appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  * .output_div .todo_output:not(:read-only) {
+    transition: 0.4s all ease-in;
+    color: #0A62E8;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  * .output_div .todo_output.crossed {
+    text-decoration: line-through;
+    transition: 0.8s all ease-in;
+  }
+  * .output_div .buttons_div .cross_off_button {
+    background-color: #BBC9DC;
+    border: 3px solid #475C7D;
+    border-radius: 5px;
+    width: 8vw;
+    height: 8vw;
+    color: #122A4D;
+    font-size: 3.5vw;
+  }
+  * .output_div .buttons_div .edit_button {
+    background-color: #BBC9DC;
+    border: 3px solid #475C7D;
+    border-radius: 5px;
+    width: 8vw;
+    height: 8vw;
+    color: #122A4D;
+    font-size: 3.5vw;
+  }
+  * .output_div .buttons_div .delete_button {
+    background-color: #BBC9DC;
+    border: 3px solid #475C7D;
+    border-radius: 5px;
+    width: 8vw;
+    height: 8vw;
+    color: #122A4D;
+    font-size: 3.5vw;
+  }
 }/*# sourceMappingURL=todo.css.map */
