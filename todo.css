@@ -544,11 +544,16 @@
     text-decoration: line-through;
     transition: 0.8s all ease-in;
   }
+  * .output_div .buttons_div {
+    border: 2px dotted dodgerblue;
+    width: 60vw;
+    margin: 0 0vw 0 0;
+  }
   * .output_div .buttons_div .cross_off_button {
     background-color: #BBC9DC;
     border: 3px solid #475C7D;
     border-radius: 5px;
-    width: 8vw;
+    width: 15vw;
     height: 8vw;
     color: #122A4D;
     font-size: 3.5vw;
@@ -557,7 +562,7 @@
     background-color: #BBC9DC;
     border: 3px solid #475C7D;
     border-radius: 5px;
-    width: 8vw;
+    width: 15vw;
     height: 8vw;
     color: #122A4D;
     font-size: 3.5vw;
@@ -566,7 +571,7 @@
     background-color: #BBC9DC;
     border: 3px solid #475C7D;
     border-radius: 5px;
-    width: 8vw;
+    width: 25vw;
     height: 8vw;
     color: #122A4D;
     font-size: 3.5vw;

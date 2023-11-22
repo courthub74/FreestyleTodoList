@@ -583,11 +583,14 @@ $editcolor: #0A62E8;
             }
             // The Buttons
             .buttons_div {
+                border: 2px dotted dodgerblue;
+                width: 60vw;
+                margin: 0 0vw 0 0;
                 .cross_off_button {
                     background-color: $buttons;
                     border: 3px solid $buttonoutline;
                     border-radius: 5px;
-                    width: 8vw;
+                    width: 15vw;
                     height: 8vw;
                     color: $background;
                     font-size: 3.5vw;
@@ -596,7 +599,7 @@ $editcolor: #0A62E8;
                     background-color: $buttons;
                     border: 3px solid $buttonoutline;
                     border-radius: 5px;
-                    width: 8vw;
+                    width: 15vw;
                     height: 8vw;
                     color: $background;
                     font-size: 3.5vw;
@@ -605,7 +608,7 @@ $editcolor: #0A62E8;
                     background-color: $buttons;
                     border: 3px solid $buttonoutline;
                     border-radius: 5px;
-                    width: 8vw;
+                    width: 25vw;
                     height: 8vw;
                     color: $background;
                     font-size: 3.5vw;
